@@ -7,6 +7,7 @@ const server = http.createServer((req, res) => {
     res.end("Welcome to our Node home page");
     return;
   }
+
   if (req.url === "/about") {
     res.end("Here is our brief history.");
     return;
